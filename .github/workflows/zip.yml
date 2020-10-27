@@ -1,0 +1,45 @@
+name: Continuous Deployment
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  create_data_pack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
+      - name: Create resourcepack zip
+        uses: montudor/action-zip@v0.1.0
+        with:
+          args: zip -qq -r rp.zip assets
+
+      - name: Delete Release
+        uses: larryjoelane/delete-release-action@v1.0.22
+        with:
+          release-name: Resourcepack
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: Resourcepack
+          release_name: Ressourcenpaket
+          draft: false
+          prerelease: false
+
+      - name: Upload resourcepack release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./rp.zip
+          asset_name: resourcepack.zip
+          asset_content_type: application/zip

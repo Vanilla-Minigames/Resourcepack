@@ -1,0 +1,9 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "block/rose_bush_top"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1}, "model": "item/rose_bush/1" }
+	]
+}

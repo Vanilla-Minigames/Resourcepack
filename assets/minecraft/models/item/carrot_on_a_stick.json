@@ -1,0 +1,29 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/carrot_on_a_stick"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1}, "model": "item/carrot_on_a_stick/elephant" },
+		{ "predicate": { "custom_model_data": 2}, "model": "item/carrot_on_a_stick/elephant2" },
+		{ "predicate": { "custom_model_data": 3}, "model": "item/carrot_on_a_stick/ratevil" },
+		{ "predicate": { "custom_model_data": 4}, "model": "item/carrot_on_a_stick/chinesedragon" },
+		{ "predicate": { "custom_model_data": 5}, "model": "item/carrot_on_a_stick/amongus/black" },
+		{ "predicate": { "custom_model_data": 6}, "model": "item/carrot_on_a_stick/amongus/blue" },
+		{ "predicate": { "custom_model_data": 7}, "model": "item/carrot_on_a_stick/amongus/brown" },
+		{ "predicate": { "custom_model_data": 8}, "model": "item/carrot_on_a_stick/amongus/cyan" },
+		{ "predicate": { "custom_model_data": 9}, "model": "item/carrot_on_a_stick/amongus/gray" },
+		{ "predicate": { "custom_model_data": 10}, "model": "item/carrot_on_a_stick/amongus/green" },
+		{ "predicate": { "custom_model_data": 11}, "model": "item/carrot_on_a_stick/amongus/light_blue" },
+		{ "predicate": { "custom_model_data": 12}, "model": "item/carrot_on_a_stick/amongus/light_gray" },
+		{ "predicate": { "custom_model_data": 13}, "model": "item/carrot_on_a_stick/amongus/lime" },
+		{ "predicate": { "custom_model_data": 14}, "model": "item/carrot_on_a_stick/amongus/magenta" },
+		{ "predicate": { "custom_model_data": 15}, "model": "item/carrot_on_a_stick/amongus/orange" },
+		{ "predicate": { "custom_model_data": 16}, "model": "item/carrot_on_a_stick/amongus/pink" },
+		{ "predicate": { "custom_model_data": 17}, "model": "item/carrot_on_a_stick/amongus/purple" },
+		{ "predicate": { "custom_model_data": 18}, "model": "item/carrot_on_a_stick/amongus/red" },
+		{ "predicate": { "custom_model_data": 19}, "model": "item/carrot_on_a_stick/amongus/white" },
+		{ "predicate": { "custom_model_data": 20}, "model": "item/carrot_on_a_stick/amongus/yellow" },
+		{ "predicate": { "custom_model_data": 21}, "model": "item/carrot_on_a_stick/farbe" }
+	]
+}

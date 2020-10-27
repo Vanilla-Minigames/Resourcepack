@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "vanillaminigames:font/dc.png",
+            "ascent": 16,
+            "height": 16,
+            "chars": [
+                "\uE000"
+            ]
+        }
+    ]
+}
