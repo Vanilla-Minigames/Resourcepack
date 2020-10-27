@@ -2,4 +2,4 @@
 
 ## Examples
 
-<code> tellraw @p {"translate":"%s hat %s getötet","with":[{"selector":"@r"},{"selector":"@r"}]} </code>
+<code> tellraw @a {"translate":"%s wurde von %s getötet","with":[{"selector":"@r"},{"selector":"@r"}]} </code>
