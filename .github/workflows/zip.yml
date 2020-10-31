@@ -1,8 +1,6 @@
-name: Continuous Deployment
+name: ZIP erstellen
 on:
   push:
-    branches: [ master ]
-  pull_request:
     branches: [ master ]
 
 jobs:
@@ -17,13 +15,13 @@ jobs:
         with:
           args: zip -qq -r rp.zip assets
 
-      - name: Delete Release
+      - name: Release löschen
         uses: larryjoelane/delete-release-action@v1.0.22
         with:
           release-name: Resourcepack
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create release
+      - name: release erstellen
         id: create_release
         uses: actions/create-release@v1
         env:
