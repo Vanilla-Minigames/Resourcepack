@@ -28,7 +28,7 @@
 	"Zuschauermodus aktiviert!\nZum Deaktivieren nutze '/trigger l'!": "Spectator mode enabled!\nTo disable use '/trigger l'!",
 	"Trage in das Buch dein Anliegen ein und signiere es! Zum Absenden nutze '/trigger Ticket set -1'": "Write your request in the book and sign it! To send use '/trigger Ticket set -1'.",
 	"Regeln:\n- Verhalte dich respektvoll und angemessen!\n- Unerlaubte Werbung, Cheaten, Bugusen und Strafumgehung sind verboten!\n- Den Aufforderungen des Teams ist Folge zu leisten!\n- Bugs müssen dem Team schnellstmöglich gemeldet werden!": "Rules:\n- Be respectful and polite!\n- Unallowed ads, cheating, bugusing and bypassing of punishment are forbidden!\n- The requests of staff members has to be followed!\n- Bugs must be reported to the team as soon as possible!",
-	"Wenn du Übersetzungen für Spielmodi möchtest aktiviere das Ressourcenpaket!": "The language ingame is based on your minecraft language settings. At the moment there are 2 languages available: Deutsch, English",
+	"Wenn du Übersetzungen für Spielmodi möchtest aktiviere das Ressourcenpaket!": "The language ingame is based on your minecraft language settings. At the moment there are 2 languages available: German, English",
 	"Server gesponsert von MGServers.de": "Sponsored by MGServers.de!",
 	"Anliegen? /trigger Ticket": "Bugs, issues or problems? /trigger Ticket",
 	"Aktuell ist %s Spieler online": "There is %s player online",
