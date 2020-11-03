@@ -1,6 +1,6 @@
-    "description": "§6Vanilla Minigames"
 {
   "pack": {
-    "pack_format": 6,
+	"description": "§6Vanilla Minigames",
+    "pack_format": 6
   }
 }
