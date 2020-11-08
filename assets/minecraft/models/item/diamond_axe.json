@@ -1,10 +1,10 @@
 {
-    "parent": "item/generated",
+    "parent": "item/handheld",
     "textures": {
         "layer0": "item/swords/diamond_axe"
-	    },
+	},
 	"overrides":[
-		{"predicate": {"custom_model_data":1}, "model": "item/swords/chainsaw"},
-		{"predicate": {"custom_model_data":2}, "model": "item/swords/cleaver"}
+		{"predicate": {"custom_model_data": 1}, "model": "item/swords/chainsaw"},
+		{"predicate": {"custom_model_data": 2}, "model": "item/swords/cleaver"}
 	]
 }
