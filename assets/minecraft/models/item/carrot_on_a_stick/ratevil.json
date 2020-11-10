@@ -477,14 +477,14 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [73.25, 141.5, 0],
+			"rotation": [73, 141.5, 0],
 			"translation": [5, -25, 6],
-			"scale": [2.8, 2.8, 2.8]
+			"scale": [2.9, 2.9, 2.9]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [73.25, 277.5, 0],
-			"translation": [-5, -15, 20],
-			"scale": [2.8, 2.8, 2.8]
+			"translation": [-5, -25, 20],
+			"scale": [2.9, 2.9, 2.9]
 		},
 		"ground": {
 			"translation": [0, 8, 0],
