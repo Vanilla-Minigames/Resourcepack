@@ -73,11 +73,11 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, -15, 0],
+			"translation": [-7, -15, 0],
 			"scale": [1.1, 1.1, 1.1]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, -15, 0],
+			"translation": [-7, -15, 0],
 			"scale": [1.1, 1.1, 1.1]
 		},
 		"ground": {
