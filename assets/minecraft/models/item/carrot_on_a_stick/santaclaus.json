@@ -115,10 +115,12 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"scale": [1, 1, 1]
+			"translation": [0, -15, 0],
+			"scale": [1.1, 1.1, 1.1]
 		},
 		"thirdperson_lefthand": {
-			"scale": [1, 1, 1]
+			"translation": [0, -15, 0],
+			"scale": [1.1, 1.1, 1.1]
 		},
 		"gui": {
 			"scale": [0.4, 0.4, 0.4]
