@@ -18,8 +18,8 @@ jobs:
       - name: Create checksum
         id: checksum
         run: |
-          SUM=`sha256sum rp.zip`
-          echo $SUM
+            sum=`sha256sum rp.zip`
+            echo $sum
 
       - name: Delete old release
         uses: larryjoelane/delete-release-action@v1.0.22
@@ -35,7 +35,7 @@ jobs:
         with:
           tag_name: Resourcepack
           release_name: Ressourcenpaket
-          body: ${{ steps.checksum.outputs.SUM }} 
+          body: ${{ steps.checksum.outputs.sum }} 
           draft: false
           prerelease: false
 
