@@ -20,6 +20,7 @@ jobs:
         run: |
             sum=`sha256sum rp.zip`
             echo $sum > checksum.txt
+            echo -e "\n#### SHA256 Checksum\n\n\`\`\`\n$SUM\n\`\`\`\n" >> ./RELEASE_CHANGELOG
 
       - name: Delete old release
         uses: larryjoelane/delete-release-action@v1.0.22
@@ -35,7 +36,7 @@ jobs:
         with:
           tag_name: Resourcepack
           release_name: Ressourcenpaket
-          body: ${{ steps.checksum.outputs.sum }}
+          body_path: ./RELEASE_CHANGELOG
 
       - name: Upload resourcepack release
         uses: actions/upload-release-asset@v1
