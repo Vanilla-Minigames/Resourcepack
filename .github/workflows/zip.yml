@@ -15,7 +15,8 @@ jobs:
         with:
           args: zip -qq -r rp.zip assets pack.mcmeta pack.png README.md
 
-      - name: Create checksum and add to changelog
+      - name: Create checksum
+        id: checksum
         run: |
           SUM=`sha256sum rp.zip`
           echo $SUM
@@ -26,7 +27,7 @@ jobs:
           release-name: Resourcepack
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: release erstellen
+      - name: Create release
         id: create_release
         uses: actions/create-release@v1
         env:
@@ -34,6 +35,7 @@ jobs:
         with:
           tag_name: Resourcepack
           release_name: Ressourcenpaket
+          body: ${{ steps.checksum.outputs.SUM }} 
           draft: false
           prerelease: false
 
