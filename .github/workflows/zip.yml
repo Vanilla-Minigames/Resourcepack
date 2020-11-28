@@ -15,7 +15,12 @@ jobs:
         with:
           args: zip -qq -r rp.zip assets pack.mcmeta pack.png README.md
 
-      - name: Release löschen
+      - name: Create checksum and add to changelog
+        run: |
+          SUM=`sha256sum rp.zip`
+          echo $SUM
+
+      - name: Delete old release
         uses: larryjoelane/delete-release-action@v1.0.22
         with:
           release-name: Resourcepack
