@@ -32,5 +32,7 @@
 	"Wenn du Übersetzungen für den Server möchtest aktiviere das Ressourcenpaket!": "The language ingame is based on your minecraft language settings. At the moment there are 2 languages available: German, English",
 	"Server gesponsert von MGServers.de": "Sponsored by MGServers.de!",
 	"Aktuell ist %s Spieler online": "There is %s player online",
-	"Aktuell sind %s Spieler online": "There are %s players online"
+	"Aktuell sind %s Spieler online": "There are %s players online",
+	"Du nutzt das Ressourcenpaket jetzt!": "You've enabled the resource pack!",
+	"Du nutzt das Ressourcenpaket nicht mehr!": "You've disabled the resource pack!"
 }
