@@ -17,6 +17,13 @@
 	"Du hast noch einen Cooldown: ": "Du hast noch einen Cooldown: ",
 	"partyinvite": "Du wurdest von %s in eine Party eingeladen!",
 	"partyinviter": "Du hast %s in deine Party eingeladen!",
+	"Deine Party": "Deine Party",
+	"Öffentliche Partys": "Öffentliche Partys",
+	"Party öffentlich machen": "Party öffentlich machen",
+	"Party privat machen": "Party privat machen",
+	"Party ist öffentlich": "Party ist öffentlich",
+	"Party ist privat": "Party ist privat",
+	"Party-Einstellungen": "Party-Einstellungen",
 	" ist der Party beigetreten!": " ist der Party beigetreten!",
 	"Du bist der Party beigetreten!": "Du bist der Party beigetreten!",
 	"Du hast die Partyanfrage abgelehnt!": "Du hast die Partyanfrage abgelehnt!",
@@ -34,6 +41,14 @@
 	"Aktuell ist %s Spieler online": "Aktuell ist %s Spieler online",
 	"Aktuell sind %s Spieler online": "Aktuell sind %s Spieler online",
 	"Du nutzt das Ressourcenpaket jetzt!": "Du nutzt das Ressourcenpaket jetzt!",
-	"Du nutzt das Ressourcenpaket nicht mehr!": "Du nutzt das Ressourcenpaket nicht mehr!"
-	"Übersicht": "Übersicht"
+	"Du nutzt das Ressourcenpaket nicht mehr!": "Du nutzt das Ressourcenpaket nicht mehr!",
+	"Übersicht": "Übersicht",
+	"Menü": "Menü",
+	"Minispiele": "Minispiele",
+	"Inventar": "Inventar",
+	"Einführung ansehen": "Einführung ansehen",
+	"Elytrarennen": "Elytrarennen",
+	"TNT-Wars": "TNT-Wars",
+	"Nicht gekauft": "Nicht gekauft",
+	"Zurück": "Zurück"
 }
