@@ -51,5 +51,24 @@
 	"TNT-Wars": "TNT Wars",
 	"Nicht gekauft": "Not bought",
 	"Zurück": "Back",
-	"Premium 10 Spielstunden": "Premium 10 ingame hours"
+	"Premium 10 Spielstunden": "Premium 10 ingame hours",
+	"Ressourcenpaket": "Resourcepack",
+	"Warten auf weitere Spieler...": "Waiting for more players...",
+
+	"__comment1": "KNOCKBACK",
+	"Du kannst die Map im Inventar auswählen!": "You can choose the map in the inventory!",
+	"Schwert": "Sword",
+	"Gebaut von ": "Built by ",
+	"Schnelligkeit": "Speed",
+	"Stock": "Stick",
+	"Bogen": "Bow",
+	"Pfeile": "Arrows",
+	"Kosten:  Punkte": "Costs:  Points",
+	"Points:  , Killstreak:  ": "Points:  , Killstreak:  ",
+
+	"__comment2": "TNT-WARS",
+	"Das Netherportal von Team  wurde zerstört!": "The nether portal of team  was destroyed!",
+
+	"__comment3": "JOINME",
+	"  spielt  !": "  plays  !"
 }

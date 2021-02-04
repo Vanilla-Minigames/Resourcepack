@@ -50,5 +50,25 @@
 	"Elytrarennen": "Elytrarennen",
 	"TNT-Wars": "TNT-Wars",
 	"Nicht gekauft": "Nicht gekauft",
-	"Zurück": "Zurück"
+	"Zurück": "Zurück",
+	"Premium 10 Spielstunden": "Premium 10 Spielstunden",
+	"Ressourcenpaket": "Ressourcenpaket",
+	"Warten auf weitere Spieler...": "Warten auf weitere Spieler...",
+
+	"__comment1": "KNOCKBACK",
+	"Du kannst die Map im Inventar auswählen!": "You can choose the map in the inventory!",
+	"Schwert": "Sword",
+	"Gebaut von ": "Built by ",
+	"Schnelligkeit": "Schnelligkeit",
+	"Stock": "Stock",
+	"Bogen": "Bogen",
+	"Pfeile": "Pfeile",
+	"Kosten:  Punkte": "Kosten:  Punkte",
+	"Points:  , Killstreak:  ": "Punkte:  , Killstreak:  ",
+
+	"__comment2": "TNT-WARS",
+	"Das Netherportal von Team  wurde zerstört!": "Das Netherportal von Team  wurde zerstört!",
+
+	"__comment3": "JOINME",
+	"  spielt  !": "  spielt  !"
 }
