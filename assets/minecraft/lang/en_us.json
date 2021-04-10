@@ -44,7 +44,7 @@
 	"Du nutzt das Ressourcenpaket nicht mehr!": "You've disabled the resource pack!",
 	"Übersicht": "Overview",
 	"Menü": "Menu",
-	"Minispiele": "Minigames",
+	"Spielmodi": "Gamemodes",
 	"Inventar": "Inventory",
 	"Einführung ansehen": "View introduction",
 	"Elytrarennen": "Elytra race",
@@ -56,19 +56,21 @@
 	"Warten auf weitere Spieler...": "Waiting for more players...",
 
 	"__comment1": "KNOCKBACK",
-	"Du kannst die Map im Inventar auswählen!": "You can choose the map in the inventory!",
+	"Du kannst die Map im Inventar auswählen!": "You can choose the map in your inventory!",
 	"Schwert": "Sword",
 	"Gebaut von ": "Built by ",
 	"Schnelligkeit": "Speed",
 	"Stock": "Stick",
 	"Bogen": "Bow",
 	"Pfeile": "Arrows",
-	"Kosten:  Punkte": "Costs:  Points",
-	"Points:  , Killstreak:  ": "Points:  , Killstreak:  ",
+	"Punkte: ": "Points: ",
+	", Killstreak: ": ", Killstreak: ",
 
 	"__comment2": "TNT-WARS",
-	"Das Netherportal von Team  wurde zerstört!": "The nether portal of team  was destroyed!",
+	"Das Netherportal von Team Rot wurde zerstört!": "The nether portal of team red was destroyed!",
+	"Das Netherportal von Team Blau wurde zerstört!": "The nether portal of team blue was destroyed!",
 
 	"__comment3": "JOINME",
-	"  spielt  !": "  plays  !"
+	" spielt ": " plays ",
+	"Du kannst in der Lobby kein JoinMe erstellen!": "You can't create JoinMe's in the lobby!"
 }

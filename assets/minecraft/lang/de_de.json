@@ -44,7 +44,7 @@
 	"Du nutzt das Ressourcenpaket nicht mehr!": "Du nutzt das Ressourcenpaket nicht mehr!",
 	"Übersicht": "Übersicht",
 	"Menü": "Menü",
-	"Minispiele": "Minispiele",
+	"Spielmodi": "Spielmodi",
 	"Inventar": "Inventar",
 	"Einführung ansehen": "Einführung ansehen",
 	"Elytrarennen": "Elytrarennen",
@@ -56,19 +56,21 @@
 	"Warten auf weitere Spieler...": "Warten auf weitere Spieler...",
 
 	"__comment1": "KNOCKBACK",
-	"Du kannst die Map im Inventar auswählen!": "You can choose the map in the inventory!",
-	"Schwert": "Sword",
-	"Gebaut von ": "Built by ",
+	"Du kannst die Map im Inventar auswählen!": "Du kannst die Map im Inventar auswählen!",
+	"Schwert": "Schwert",
+	"Gebaut von ": "Gebaut von ",
 	"Schnelligkeit": "Schnelligkeit",
 	"Stock": "Stock",
 	"Bogen": "Bogen",
 	"Pfeile": "Pfeile",
-	"Kosten:  Punkte": "Kosten:  Punkte",
-	"Points:  , Killstreak:  ": "Punkte:  , Killstreak:  ",
+	"Punkte: ": "Punkte: ",
+	", Killstreak: ": ", Killstreak: ",
 
 	"__comment2": "TNT-WARS",
-	"Das Netherportal von Team  wurde zerstört!": "Das Netherportal von Team  wurde zerstört!",
+	"Das Netherportal von Team Rot wurde zerstört!": "Das Netherportal von Team Rot wurde zerstört!",
+	"Das Netherportal von Team Blau wurde zerstört!": "Das Netherportal von Team Blau wurde zerstört!",
 
 	"__comment3": "JOINME",
-	"  spielt  !": "  spielt  !"
+	" spielt ": " spielt ",
+	"Du kannst in der Lobby kein JoinMe erstellen!": "Du kannst in der Lobby kein JoinMe erstellen!"
 }
