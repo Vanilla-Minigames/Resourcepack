@@ -8,6 +8,24 @@
             "chars": [
                 "\uE000"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "vanillaminigames:font/peepoHug.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uE001"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "vanillaminigames:font/hugPeepo.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uE002"
+            ]
         }
     ]
 }
