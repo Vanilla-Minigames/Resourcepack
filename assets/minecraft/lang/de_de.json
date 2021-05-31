@@ -54,6 +54,9 @@
 	"Premium 10 Spielstunden": "Premium 10 Spielstunden",
 	"Ressourcenpaket": "Ressourcenpaket",
 	"Warten auf weitere Spieler...": "Warten auf weitere Spieler...",
+    "chat.type.advancement.challenge": "§7[§6Lobby§7] §r%s §ehat die Aufgabe §r%s §eerledigt",
+    "chat.type.advancement.goal": "§7[§6Lobby§7] §r%s §ehat die Aufgabe §r%s §eerledigt",
+    "chat.type.advancement.task": "§7[§6Lobby§7] §r%s §ehat die Aufgabe §r%s §eerledigt",
 
 	"__comment1": "KNOCKBACK",
 	"Du kannst die Map im Inventar auswählen!": "Du kannst die Map im Inventar auswählen!",
