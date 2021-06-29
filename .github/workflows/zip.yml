@@ -15,12 +15,6 @@ jobs:
         with:
           args: zip -qq -r rp.zip assets pack.mcmeta pack.png README.md
 
-      - name: Create checksum
-        id: checksum
-        run: |
-            SUM=`sha256sum rp.zip`
-            echo -e "\n#### SHA256 Checksum\n\n\`\`\`\n$SUM\n\`\`\`\n" >> ./RELEASE_CHANGELOG
-
       - name: Delete old release
         uses: larryjoelane/delete-release-action@v1.0.22
         with:
@@ -35,7 +29,8 @@ jobs:
         with:
           tag_name: Resourcepack
           release_name: Ressourcenpaket
-          body_path: ./RELEASE_CHANGELOG
+          draft: false
+          prerelease: false
 
       - name: Upload resourcepack release
         uses: actions/upload-release-asset@v1
