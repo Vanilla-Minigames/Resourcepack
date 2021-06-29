@@ -4,7 +4,7 @@ on:
     branches: [ master ]
 
 jobs:
-  create_data_pack:
+  update_resourcepack:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -29,8 +29,6 @@ jobs:
         with:
           tag_name: Resourcepack
           release_name: Ressourcenpaket
-          draft: false
-          prerelease: false
 
       - name: Upload resourcepack release
         uses: actions/upload-release-asset@v1
