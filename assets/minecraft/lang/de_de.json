@@ -57,6 +57,11 @@
     "chat.type.advancement.challenge": "§7[§6Lobby§7] §r%s §ehat die Aufgabe §r%s §eerledigt",
     "chat.type.advancement.goal": "§7[§6Lobby§7] §r%s §ehat die Aufgabe §r%s §eerledigt",
     "chat.type.advancement.task": "§7[§6Lobby§7] §r%s §ehat die Aufgabe §r%s §eerledigt",
+	"Team Blau": "Team Blau",
+	"Team Rot": "Team Rot",
+	"Team Grün": "Team Grün",
+	"Team Gelb": "Team Gelb",
+	" hat das Spiel gewonnen!": " hat das Spiel gewonnen!"
 
 	"__comment1": "KNOCKBACK",
 	"Du kannst die Map im Inventar auswählen!": "Du kannst die Map im Inventar auswählen!",
@@ -70,8 +75,17 @@
 	", Killstreak: ": ", Killstreak: ",
 
 	"__comment2": "TNT-WARS",
-	"Das Netherportal von Team Rot wurde zerstört!": "Das Netherportal von Team Rot wurde zerstört!",
-	"Das Netherportal von Team Blau wurde zerstört!": "Das Netherportal von Team Blau wurde zerstört!",
+	"Die Schutzzeit endet in einer Minute!": "Die Schutzzeit endet in einer Minute!",
+	"Die Schutzzeit ist beendet!": "Die Schutzzeit ist beendet!",
+	"Event: Hochfliegen": "Event: Hochfliegen",
+	"Event: TNT-Regen": "Event: TNT-Regen",
+	"Event: Blitze": "Event: Blitze",
+	"Event: Onehit": "Event: Onehit",
+	"Event: Unsterblichkeit": "Event: Unsterblichkeit",
+	"Event: Instabreak": "Event: Instabreak",
+	"Event: Gift": "Event: Gift",
+	"Das Netherportal von ": "Das Netherportal von ",
+	" wurde zerstört!": " wurde zerstört",
 
 	"__comment3": "JOINME",
 	" spielt ": " spielt ",
