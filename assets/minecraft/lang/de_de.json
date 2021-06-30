@@ -37,7 +37,6 @@
 	"Trage in das Buch dein Anliegen ein und signiere es! Zum Absenden nutze '/trigger Ticket set -1'": "Trage in das Buch dein Anliegen ein und signiere es! Zum Absenden nutze '/trigger Ticket set -1'",
 	"Regeln:\n- Verhalte dich respektvoll und angemessen!\n- Werbung, Cheaten, Bugusen und Strafumgehung sind verboten!\n- Den Aufforderungen des Teams ist Folge zu leisten!\n- Bugs müssen dem Team schnellstmöglich gemeldet werden!": "Regeln:\n- Verhalte dich respektvoll und angemessen!\n- Werbung, Cheaten, Bugusen und Strafumgehung sind verboten!\n- Den Aufforderungen des Teams ist Folge zu leisten!\n- Bugs müssen dem Team schnellstmöglich gemeldet werden!",
 	"Wenn du Übersetzungen für den Server möchtest aktiviere das Ressourcenpaket!": "Die Sprache ingame richtet sich nach der Sprache, die du in Minecraft nutzt. Aktuell sind Deutsch und Englisch verfügbar.",
-	"Server gesponsert von MGServers.de": "Server gesponsert von MGServers.de",
 	"Aktuell ist %s Spieler online": "Aktuell ist %s Spieler online",
 	"Aktuell sind %s Spieler online": "Aktuell sind %s Spieler online",
 	"Du nutzt das Ressourcenpaket jetzt!": "Du nutzt das Ressourcenpaket jetzt!",
@@ -61,7 +60,7 @@
 	"Team Rot": "Team Rot",
 	"Team Grün": "Team Grün",
 	"Team Gelb": "Team Gelb",
-	" hat das Spiel gewonnen!": " hat das Spiel gewonnen!"
+	" hat das Spiel gewonnen!": " hat das Spiel gewonnen!",
 
 	"__comment1": "KNOCKBACK",
 	"Du kannst die Map im Inventar auswählen!": "Du kannst die Map im Inventar auswählen!",

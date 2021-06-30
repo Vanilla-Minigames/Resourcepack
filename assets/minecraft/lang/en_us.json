@@ -37,7 +37,6 @@
 	"Trage in das Buch dein Anliegen ein und signiere es! Zum Absenden nutze '/trigger Ticket set -1'": "Write your request in the book and sign it! To send use '/trigger Ticket set -1'.",
 	"Regeln:\n- Verhalte dich respektvoll und angemessen!\n- Werbung, Cheaten, Bugusen und Strafumgehung sind verboten!\n- Den Aufforderungen des Teams ist Folge zu leisten!\n- Bugs müssen dem Team schnellstmöglich gemeldet werden!": "Rules:\n- Be respectful and polite!\n- Unallowed ads, cheating, bugusing and bypassing of punishment are forbidden!\n- The requests of staff members has to be followed!\n- Bugs must be reported to the team as soon as possible!",
 	"Wenn du Übersetzungen für den Server möchtest aktiviere das Ressourcenpaket!": "The language ingame is based on your minecraft language settings. At the moment there are 2 languages available: German, English",
-	"Server gesponsert von MGServers.de": "Sponsored by MGServers.de!",
 	"Aktuell ist %s Spieler online": "There is %s player online",
 	"Aktuell sind %s Spieler online": "There are %s players online",
 	"Du nutzt das Ressourcenpaket jetzt!": "You've enabled the resource pack!",
@@ -61,7 +60,7 @@
 	"Team Rot": "Team red",
 	"Team Grün": "Team green",
 	"Team Gelb": "Team yellow",
-	" hat das Spiel gewonnen!": " won the game!"
+	" hat das Spiel gewonnen!": " won the game!",
 
 	"__comment1": "KNOCKBACK",
 	"Du kannst die Map im Inventar auswählen!": "You can choose the map in your inventory!",
