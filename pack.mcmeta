@@ -1,6 +1,13 @@
 {
-  "pack": {
-	"description": "§6Vanilla Minigames",
-    "pack_format": 7
-  }
+	"pack": {
+		"description": "§6Vanilla Minigames",
+		"pack_format": 7
+	},
+	"language": {
+		"en_vm": {
+			"name": "Vanilla Minigames",
+			"region": "English",
+			"bidirectional": "false"
+		}
+	}
 }
