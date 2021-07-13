@@ -23,16 +23,15 @@ jobs:
       - name: Create checksum and edit on pterodactyl panel
         id: checksum_pterodactyl
         env:
-          KEY: ${{ secrets.PTERODACTYL_PANEL_API_KEY }}
-          PANEL: ${{ secrets.PTERODACTYL_PANEL_URL }}
+          API_KEY: ${{ secrets.PTERODACTYL_PANEL_API_KEY }}
           SERVER: ${{ secrets.PTERODACTYL_SERVER }}
         run: |
             SUM=`sha1sum rp.zip | awk '{ print $1 }'`
             echo -e "\n#### SHA1 Checksum\n\n\`\`\`\n$SUM\n\`\`\`\n" >> ./RELEASE_CHANGELOG
             echo "Calculated SHA1 Checksum: $SUM."
-            curl -H "Authorization: Bearer $KEY" -X GET "$PANEL/api/client/servers/$SERVER/files/contents?file=%2Fserver.properties" > server.properties
+            curl -H "Authorization: Bearer $API_KEY" -X GET "https://panel.chaoshosting.tk/api/client/servers/$SERVER/files/contents?file=%2Fserver.properties" > server.properties
             perl -pi -e "s/resource-pack-sha1=([0-9a-z]{40})?/resource-pack-sha1=$SUM/g" server.properties
-            curl -H "Authorization: Bearer $KEY" -X POST "$PANEL/api/client/servers/$SERVER/files/write?file=%2Fserver.properties" -d "$(cat server.properties)"
+            curl -H "Authorization: Bearer $API_KEY" -X POST "https://panel.chaoshosting.tk/api/client/servers/$SERVER/files/write?file=%2Fserver.properties" -d "$(cat server.properties)"
             echo "Replaced resource-pack-sha1 property on pterodactyl server with $SUM."
 
       - name: Delete old release
