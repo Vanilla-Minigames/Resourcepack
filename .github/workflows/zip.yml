@@ -9,11 +9,31 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      
+      - name: Setup perl
+        uses: shogo82148/actions-setup-perl@v1
+        with:
+          perl-version: '5.34'
         
       - name: Create resourcepack zip
         uses: montudor/action-zip@v0.1.0
         with:
           args: zip -qq -r rp.zip assets pack.mcmeta pack.png README.md
+
+      - name: Create checksum and edit on pterodactyl panel
+        id: checksum_pterodactyl
+        env:
+          KEY: ${{ secrets.PTERODACTYL_PANEL_API_KEY }}
+          PANEL: ${{ secrets.PTERODACTYL_PANEL_URL }}
+          SERVER: ${{ secrets.PTERODACTYL_SERVER }}
+        run: |
+            SUM=`sha1sum rp.zip`
+            echo -e "\n#### SHA1 Checksum\n\n\`\`\`\n$SUM\n\`\`\`\n" >> ./RELEASE_CHANGELOG
+            echo "Calculated SHA1 Checksum: $SUM."
+            curl -H "Authorization: Bearer $KEY" -X GET "$PANEL/api/client/servers/$SERVER/files/contents?file=%2Fserver.properties" > server.properties
+            perl -pi -e "s/resource-pack-sha1=([0-9a-z]{40})?/resource-pack-sha1=$SUM/g" server.properties
+            curl -H "Authorization: Bearer $KEY" -X POST "$PANEL/api/client/servers/$SERVER/files/write?file=%2Fserver.properties" -d "$(cat server.properties)"
+            echo "Replaced resource-pack-sha1 property on pterodactyl server with $SUM."
 
       - name: Delete old release
         uses: larryjoelane/delete-release-action@v1.0.22
@@ -29,6 +49,7 @@ jobs:
         with:
           tag_name: Resourcepack
           release_name: Ressourcenpaket
+          body_path: ./RELEASE_CHANGELOG
 
       - name: Upload resourcepack release
         uses: actions/upload-release-asset@v1
