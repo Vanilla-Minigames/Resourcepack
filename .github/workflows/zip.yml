@@ -27,7 +27,7 @@ jobs:
           PANEL: ${{ secrets.PTERODACTYL_PANEL_URL }}
           SERVER: ${{ secrets.PTERODACTYL_SERVER }}
         run: |
-            SUM=`sha1sum rp.zip`
+            SUM=`sha1sum rp.zip | awk '{ print $1 }'`
             echo -e "\n#### SHA1 Checksum\n\n\`\`\`\n$SUM\n\`\`\`\n" >> ./RELEASE_CHANGELOG
             echo "Calculated SHA1 Checksum: $SUM."
             curl -H "Authorization: Bearer $KEY" -X GET "$PANEL/api/client/servers/$SERVER/files/contents?file=%2Fserver.properties" > server.properties
