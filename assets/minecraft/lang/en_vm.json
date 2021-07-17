@@ -90,7 +90,7 @@
 
 	"__comment3": "JOINME",
 	" spielt ": " plays ",
-	"Du kannst in der Lobby kein JoinMe erstellen!": "You can't create JoinMe's in the lobby!"
+	"Du kannst in der Lobby kein JoinMe erstellen!": "You can't create JoinMe's in the lobby!",
 	
 	"__comment4": "KOTH",
 	"Warten auf weitere Spieler": "Waiting for players to join", 
@@ -113,5 +113,5 @@
 	"Schutzzeit endet in 10 Sekunden!": "Protection time ends in 10 seconds!",
 	"Sieg!": "Victory!",
 	"Alle Spieler sind gestorben": "All players died",
-	"Leben von ": "Life of "
+	"Leben von ": "Hearts of "
 }
