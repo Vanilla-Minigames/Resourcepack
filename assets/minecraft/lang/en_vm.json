@@ -86,9 +86,32 @@
 	"Event: Instabreak": "Event: Instabreak",
 	"Event: Gift": "Event: Posion",
 	"Das Netherportal von ": "The portal of ",
-	" wurde zerstört!": " was destroyd",
+	" wurde zerstört!": " was destroyed",
 
 	"__comment3": "JOINME",
 	" spielt ": " plays ",
-	"Du kannst in der Lobby kein JoinMe erstellen!": "You can't create JoinMe's in the lobby!"
+	"Du kannst in der Lobby kein JoinMe erstellen!": "You can't create JoinMe's in the lobby!",
+	
+	"__comment4": "KOTH",
+	"Warten auf weitere Spieler": "Waiting for players to join", 
+	"Bleibe 5 Sekunden in der Burg": "Stay at least 5 seconds in the castle",
+	" hat die Burg erreicht!": " has reached the castle!",
+	"In der Burg ist ein Angreifer!": "There's an attacker in the castle!",
+	"Das Spiel ist beendet!": "The game has finished!",
+	"Noch 10 Sekunden!": "10 seconds left!",
+	"Noch 30 Sekunden!": "30 seconds left!",
+	" hat einen Punkt gemacht!": " scored a point",
+	
+	"__comment5": "BLOCK_HUNT",
+	" wurde gefunden!": " was found!",
+	" ist ausgeschieden!": " is out!",
+	" Blöcke": "Blocks",
+	" Block": "Block",
+	"Schutzzeit ist vorbei!": "Protection period is over!",
+	"Schutzzeit endet in 30 Sekunden!": "Protection time ends in 30 seconds!",
+	"Schutzzeit endet in 15 Sekunden!": "Protection time ends in 15 seconds!",
+	"Schutzzeit endet in 10 Sekunden!": "Protection time ends in 10 seconds!",
+	"Sieg!": "Victory!",
+	"Alle Spieler sind gestorben": "All players died",
+	"Leben von ": "Hearts of "
 }
