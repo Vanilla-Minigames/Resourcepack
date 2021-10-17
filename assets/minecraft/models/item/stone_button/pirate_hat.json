@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench, pack by duanti",
 	"textures": {
 		"0": "item/stone_button/black_wool",
-		"2": "item/stone_button/Pirateflag",
+		"2": "item/stone_button/pirateflag",
 		"3": "item/stone_button/yellow_wool",
 		"particle": "item/stone_button/black_wool"
 	},

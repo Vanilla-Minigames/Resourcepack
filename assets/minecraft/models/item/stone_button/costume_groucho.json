@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench, pack by duanti",
 	"textures": {
-		"0": "item/stone_button/MissGhouls",
+		"0": "item/stone_button/missghouls",
 		"1": "item/stone_button/coal_block",
 		"2": "item/stone_button/acacia_log",
-		"particle": "item/stone_button/MissGhouls"
+		"particle": "item/stone_button/missghouls"
 	},
 	"elements": [
 		{
