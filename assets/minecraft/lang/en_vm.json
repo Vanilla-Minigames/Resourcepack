@@ -124,4 +124,8 @@
 	"Dorfbewoher-Shop": "Villager-Shop",
 	"Stats zurücksetzen": "Reset stats",
 	"Kann nicht rückgängig gemacht werden!": "Can't be undone!"
+	
+	"__comment7": "CRATES",
+	"Crate öffnen": "Open crate",
+	"Du hast nicht genug Crates!": "You don't have enough crates!"
 }
