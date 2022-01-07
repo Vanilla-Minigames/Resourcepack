@@ -120,12 +120,15 @@
 	"Partyanfragen aktivieren/deaktivieren": "Enable/disable party requests",
 	"Nach einem Spiel dem Spiel zuschauen": "Spectate a game after the game is finished",
 	"Anzeige-Rang auswählen": "Choose the shown rank",
-	"Zur Auswahl": "To the options",
+	"Zur Auswahl": "View options",
 	"Dorfbewoher-Shop": "Villager-Shop",
 	"Stats zurücksetzen": "Reset stats",
 	"Kann nicht rückgängig gemacht werden!": "Can't be undone!"
 	
 	"__comment7": "CRATES",
 	"Crate öffnen": "Open crate",
-	"Du hast nicht genug Crates!": "You don't have enough crates!"
+	"Du hast nicht genug Crates!": "You don't have enough crates!",
+	"Es wird schon ein Crate geöffnet!": "A crate is being opened right now!",
+	"Du hast": "You've got",
+	"freigeschaltet!": "!"
 }
