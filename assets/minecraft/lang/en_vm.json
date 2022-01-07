@@ -111,4 +111,17 @@
 	"Sieg!": "Victory!",
 	"Alle Spieler sind gestorben": "All players died",
 	"Leben von ": "Hearts of "
+	
+	"__comment6": "SETTINGS",
+	"Einstellungen": "Settings",
+	"Aktuelle Einstellung": "Current Setting",
+	"Aktiviert": "Enabled",
+	"Deaktiviert": "Disabled",
+	"Partyanfragen aktivieren/deaktivieren": "Enable/disable party requests",
+	"Nach einem Spiel dem Spiel zuschauen": "Spectate a game after the game is finished",
+	"Anzeige-Rang auswählen": "Choose the shown rank",
+	"Zur Auswahl": "To the options",
+	"Dorfbewoher-Shop": "Villager-Shop",
+	"Stats zurücksetzen": "Reset stats",
+	"Kann nicht rückgängig gemacht werden!": "Can't be undone!"
 }
