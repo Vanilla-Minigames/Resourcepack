@@ -1,4 +1,4 @@
-name: ZIP erstellen
+name: Create zip & publish
 
 on:
   push:
@@ -46,5 +46,7 @@ jobs:
         id: create_release
         uses: softprops/action-gh-release@v1
         with:
+          draft: false
+          name: Resourcepack
           tag_name: Resourcepack
           files: resourcepack.zip
