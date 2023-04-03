@@ -19,7 +19,7 @@ jobs:
       - name: Create resourcepack zip
         uses: montudor/action-zip@v0.1.0
         with:
-          args: zip -qq -r rp.zip assets pack.mcmeta pack.png README.md
+          args: zip -qq -r resourcepack.zip assets pack.mcmeta pack.png README.md
 
       - name: Create checksum and edit on pterodactyl panel
         id: checksum_pterodactyl
@@ -28,7 +28,7 @@ jobs:
           URL: ${{ secrets.PTERODACTYL_PANEL_URL }}
           SERVER: ${{ secrets.PTERODACTYL_SERVER_ID }}
         run: |
-            SUM=`sha1sum rp.zip | awk '{ print $1 }'`
+            SUM=`sha1sum resourcepack.zip | awk '{ print $1 }'`
             echo -e "\n#### SHA1 Checksum\n\n\`\`\`\n$SUM\n\`\`\`\n" >> ./RELEASE_CHANGELOG
             echo "Calculated SHA1 Checksum: $SUM."
             curl -H "Authorization: Bearer $API_KEY" -X GET "https://$URL/api/client/servers/$SERVER/files/contents?file=%2Fserver.properties" > server.properties
@@ -44,20 +44,7 @@ jobs:
 
       - name: Create release
         id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: softprops/action-gh-release@v1
         with:
           tag_name: Resourcepack
-          release_name: Resourcepack
-          body_path: ./RELEASE_CHANGELOG
-
-      - name: Upload resourcepack release
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./rp.zip
-          asset_name: resourcepack.zip
-          asset_content_type: application/zip
+          files: resourcepack.zip
